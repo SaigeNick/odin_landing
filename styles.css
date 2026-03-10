@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.child-flex-container{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero, .footer, .header{
+    background-color: #1F2937;
+    color:white;
+}
+
+.hero-main-text{
+    font-size:48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.agitation-block, .hero-button{
+    background-color: #3882F6;
+}
+
+.main-body-header-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-block{
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.image-with-text{
+    height: 200px;
+    width: 200px;
+}
